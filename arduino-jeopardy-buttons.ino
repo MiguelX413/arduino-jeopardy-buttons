@@ -28,6 +28,7 @@ void loop() {
     for (const Player &player : players) {
       digitalWrite(player.ledPin, LOW);
     }
+    return;
   }
   size_t i = 0;
   for (const Player &player : players) {
